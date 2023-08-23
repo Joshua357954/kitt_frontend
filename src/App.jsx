@@ -10,6 +10,7 @@ import AnnouncementScreen from "./screens/AnnouncementScreen.jsx"
 import TimetableScreen from "./screens/TimetableScreen.jsx"
 import MaterialScreen from "./screens/MaterialScreen.jsx"
 import ForumScreen from "./screens/ForumScreen.jsx"
+import PostScreen from "./screens/PostScreen.jsx"
 import MonitizationScreen from "./screens/MonitizationScreen.jsx"
 
 const router = createBrowserRouter([
@@ -35,6 +36,11 @@ const router = createBrowserRouter([
       element: <TimetableScreen />,
     },
 
+        {
+      path: "/post",
+      element: <PostScreen />,
+    },
+
     {
       path: "/materials",
       element: <MaterialScreen />,
@@ -42,7 +48,7 @@ const router = createBrowserRouter([
 
 
     {
-      path: "/announcement",
+      path: "/notice",
       element: <AnnouncementScreen />,
     },
 

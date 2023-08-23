@@ -75,13 +75,13 @@
   background-repeat: no-repeat;
 }
 
-.bgc::before{
+/*.bgc::before{
   content: "";
   position:absolute;
   top:0;left:0;width:100%;height:100%;
   background-color: rgba(255,225,255,0.1);
 }
-
+*/
 .orBg {
   background: url('./assets/images/qi (5).jpg');
   background-size: cover;

@@ -67,7 +67,7 @@ const AuthScreen = () => {
 	        		</div>
 
 
-	        		<Link to='/' className="w-[60%]">
+	        		<Link to='/home' className="w-[60%]">
 	        			<button className="mt-4 py-4 w-full border-2 text-black border-gray-600 text-[17px] bg-green-300"> Sign In </button>
 	        		</Link>
 
