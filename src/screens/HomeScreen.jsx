@@ -39,7 +39,7 @@ function HABlocks ({name,icon,color}) {
 	const navigate = useNavigate()
 	console.log(navigate)
 	return (
-		<div onClick={navigate('/')} className="border-0 border-black  h-full flex flex-col justify-center items-center gap-y-3 bg-gray-50 w-24 rounded-lg">
+		<div onClick={navigate('/')} className="border-0 border-black  h-42 flex flex-col justify-center items-center gap-y-3 bg-gray-50 w-24 rounded-lg">
 			<div className={`p-2 rounded-lg bg-blue-300`}>{icon}</div>
 			<p className="font-bold">{name}</p>
 		</div>
