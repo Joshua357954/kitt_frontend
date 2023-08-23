@@ -13,7 +13,7 @@ const AuthScreen = () => {
         	</section>
 
 
-        	<section className="Two sm:w-full md:w-[60%]">
+        	<section className="Two sm:w-full md:w-[60%] bg-white">
 
 	        	<div className="flex flex-col mx-4 mt-3 py-3 border-b-2 border-gray-300">
 					<h1 className="font-bold"> Qitt </h1>
@@ -25,7 +25,7 @@ const AuthScreen = () => {
 
 	        		{/* Gender */}
 	        		<div className="my-2 flex justify-center items-center"> 
-	        			<p className="border-t-2 border-white rounded bg-gray-100 font-bold px-2 rounded-sm p-1 mr-1"> Gender : </p> 
+	        			<p className="border-t-2 text-black border-white rounded bg-gray-100 font-bold px-2 rounded-sm p-1 mr-1"> Gender : </p> 
 	        			
 	        			<label className="ml-2">
 	        				<input type="radio" className="mr-1"/>
@@ -43,7 +43,7 @@ const AuthScreen = () => {
 
 	        		{/* Who are you*/}
 	        		<div className="flex flex-wrap  justify-center items-center">
-	        			<p className="bg-gray-100 rounded font-bold border-t-2 border-white px-2 rounded-sm p-1 mr-1">Who Are You : </p> 
+	        			<p className="bg-gray-100 rounded font-bold border-t-2 border-white px-2 rounded-sm text-black p-1 mr-1">Who Are You : </p> 
 	        			
 	        			<label className="ml-2">
 	        				<input type="radio" className="mr-1"/>
@@ -67,7 +67,7 @@ const AuthScreen = () => {
 	        		</div>
 
 
-	        		<Link to='/' className="w-[60%]">
+	        		<Link to='/home' className="w-[60%]">
 	        			<button className="mt-4 py-4 w-full border-2 text-black border-gray-600 text-[17px] bg-green-300"> Sign In </button>
 	        		</Link>
 
