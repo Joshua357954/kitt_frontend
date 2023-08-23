@@ -5,7 +5,7 @@ import { BiSearch as SearchIcon } from 'react-icons/bi'
 import { FaRegUser as User, FaMoneyBillWave as Cash } from 'react-icons/fa'
 
 import { MdSchool as School, MdAssignment as Assign } from 'react-icons/md'
-import { IoMdNotifications as Notify } from 'react-icons/Io'
+import { IoMdNotifications as Notify } from 'react-icons/io'
 import { TbCalendarTime as Time } from 'react-icons/tb'
 import { GrAnnounce as Speaker } from 'react-icons/gr'
 import {BsFillCameraFill as Camera} from 'react-icons/bs'
