@@ -2,19 +2,24 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const userSlice = createSlice({
-  name: 'counter',
+  name: 'user',
   initialState: {
-    value: 0,
+    user: {name:"Jamville"}
+    // picture:'',
+    // name: 'Samuella',
+    // gender: '',
+    // email: '',
+    // schoolName: '',
+    // course: '',
+    
   },
   reducers: {
-    increment: (state) => {
-      state.value += 1;
-    },
-    decrement: (state) => {
-      state.value -= 1;
-    },
+    updateProfile: (state,action) => {
+      state.user = action.payload
+    }
+
   },
 });
 
-export const { increment, decrement } = userSlice.actions;
+// export const { increment, decrement } = userSlice.actions;
 export default userSlice.reducer;

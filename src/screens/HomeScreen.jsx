@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate, Link } from 'react-router-dom'
 import  Sam from '../assets/images/clay-bank.jpg'
+import { useDispatch, useSelector } from 'react-redux'
 import { BiSearch as SearchIcon } from 'react-icons/bi'
 import { FaRegUser as User, FaMoneyBillWave as Cash } from 'react-icons/fa'
 import { SiChatbot as Chat } from 'react-icons/si'
@@ -73,6 +74,9 @@ function FeedPostCard () {
 }
 
 function MiniProfileCard() {
+
+	const { user } = useSelector(state => state.user)
+	console.log(user)
 	return (
 		<div className="bg-gray-50 px-2 flex gap-x-3 w-full items-center rounded-md py-2">
 
@@ -81,7 +85,7 @@ function MiniProfileCard() {
 			</div>
 
 			<div> 
-				<p className="font-medium ">Joshua Boyi</p>
+				<p className="font-medium ">{user.name}</p>
 				<p className="font-extralight ">University Of Portharcourt</p>
 			</div>
 		</div>
