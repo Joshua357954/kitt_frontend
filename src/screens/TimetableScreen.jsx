@@ -6,6 +6,8 @@ import { IoMdArrowBack as ArrowBack } from 'react-icons/io'
 
 
 const TimetableScreen = () => {
+
+
      return (
 
         <div className="bgc flex justify-center items-center w-screen h-screen ">

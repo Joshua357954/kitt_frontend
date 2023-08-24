@@ -21,5 +21,5 @@ const userSlice = createSlice({
   },
 });
 
-// export const { increment, decrement } = userSlice.actions;
+export const { updateProfile } = userSlice.actions;
 export default userSlice.reducer;
